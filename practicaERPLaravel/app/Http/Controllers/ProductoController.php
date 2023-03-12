@@ -58,8 +58,7 @@ class ProductoController extends Controller
      */
     public function show()
     {   
-        // dd("HOLA");
-        // redirect('productos.productos');
+
         $productos = Producto::all();
         $categorias = Categoria::all();
         $negocios = Negocio::all();

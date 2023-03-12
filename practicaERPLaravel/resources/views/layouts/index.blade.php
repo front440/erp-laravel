@@ -197,8 +197,7 @@
 
         <section id="services" class="services section-bg">
 
-            @yield('content')
-            @yield('crear-producto')
+            @yield('content') <!-- Sintaxis para entender, el nombre tendrá que ser único -->
 
         </section>
 
